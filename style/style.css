@@ -1,0 +1,187 @@
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+a h5 {
+  color: aliceblue;
+}
+
+.div_slide {
+  background-color: #1d1d2a;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  margin: none;
+}
+
+.slide {
+  max-width: 100%;
+}
+
+.carousel-inner {
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+  background-color: F6BE00;
+  margin: none;
+}
+
+.wallpaper-img {
+  width: 30%;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgb(255 255 255);
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+.botao {
+  display: grid;
+  place-items: center;
+}
+
+.botao_matricule {
+  background-color: #ffb800;
+  color: black;
+  position: relative;
+  top: -30rem;
+  padding: 10px 10px;
+}
+
+.Treinadores {
+  background-image: url("/img1/fundoImagem5.png");
+  background-size: 120rem;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  filter: drop-shadow(0px 0px 13px #000000);
+}
+
+.div-treinadores {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  align-items: center;
+  place-items: center;
+}
+
+.persona1 {
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+}
+
+.card {
+  place-items: center;
+  margin: 20px;
+  width: 400px;
+  height: 600px;
+}
+
+.titulo_treinadores {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.grid-planos {
+  background-size: 120rem;
+}
+.grid-planos2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.carousel-caption {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.linha {
+  background-color: #ffdd00;
+}
+
+.padding-span-trei {
+  display: grid;
+  place-items: center;
+  padding-top: -30px;
+  padding-bottom: -30px;
+  padding-right: 90px;
+  padding-left: 90px;
+  background-color: #ffdd00;
+}
+
+.img_topfit {
+  position: relative;
+  top: -35rem;
+}
+
+.botao_adquira {
+  padding: 5px 10px;
+  background-color: #ffb800;
+  margin: 0px;
+  border-radius: 2px;
+}
+
+.card {
+  color: aliceblue;
+  background-color: #000000;
+  box-shadow: 10px 10px 10px black;
+}
+
+.card-body {
+  display: grid;
+  place-items: center;
+}
+
+.linha-titulos {
+  padding: 20px 5px;
+  text-align: center;
+}
+
+.mapa {
+  place-items: center;
+
+  background-repeat: no-repeat;
+  background-size: 600px;
+  margin: 0px;
+}
+
+.mapa img {
+  place-content: center;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+.fundo_login {
+  background-image: url(/img1/mbr.jpg);
+}
+
+.linha_plano {
+  padding: 2px 5px;
+}
+
+.fundo_mapa {
+  text-align: center;
+  margin-top: 27px;
+  background-repeat: no-repeat;
+  background-image: url(/img1/Rectangle\ 1.png);
+  background-size: cover;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-image: url(/img1/mbr.jpg);
+}
